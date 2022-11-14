@@ -41,13 +41,19 @@ function Home() {
             </div>
             <div className='bg-slate-200 rounded-lg'>
               <div className='flex flex-col gap-2 p-3'>
-                <a href="">
+                <a href="https://www.instagram.com/adittww/">
                   <i className="fa-brands fa-instagram text-2xl"></i>
                 </a>
+                <a href="https://www.linkedin.com/in/aditya-widyatmoko-49315b252/">
+                  <i className="fa-brands fa-linkedin-in text-2xl"></i>  
+                </a>
+                <a href="https://github.com/dityaww">
+                  <i className="fa-brands fa-github text-2xl"></i>
+                </a>
+                <a href="">
+                  <i className="fa-solid fa-envelope text-2xl"></i>
+                </a>
                   
-                <i className="fa-brands fa-linkedin-in text-2xl"></i>
-                <i className="fa-brands fa-github text-2xl"></i>
-                <i className="fa-solid fa-envelope text-2xl"></i>
               </div>
             </div>
           </div>
