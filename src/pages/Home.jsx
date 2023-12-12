@@ -182,7 +182,7 @@ function Home() {
       </div>
       
       {/* EXPERIENCE */}
-      <div className="2xl:container mx-16 2xl:mx-auto mb-10">
+      <div className="2xl:container mx-12 2xl:mx-auto mb-10">
         <h1 className='text-2xl font-bold text-neutral-600 mb-5'>Work & Study Experience</h1>
 
         <ol className="relative border-l border-gray-200">                  
@@ -320,7 +320,7 @@ function Home() {
       </div>
       
       {/* PROJECTS */}
-      <div className="2xl:container mx-16 2xl:mx-auto">
+      <div className="2xl:container mx-12 2xl:mx-auto">
         <div className='my-14'>
             <h1 className='text-2xl font-bold text-neutral-600'>Projects</h1>
 
