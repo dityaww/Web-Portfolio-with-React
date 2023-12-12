@@ -9,6 +9,31 @@ import projects3  from '../assets/projects/projek-3.png'
 import projects4  from '../assets/projects/projek-4.png'
 import projects5  from '../assets/projects/projek-5.png'
 
+import react from '../assets/logo/react-logo.png'
+import redux from '../assets/logo/redux.png'
+import node from '../assets/logo/node.png'
+import ci from '../assets/logo/ci.png'
+import php from '../assets/logo/php.png'
+import js from '../assets/logo/js.png'
+import py from '../assets/logo/py.png'
+import html from '../assets/logo/html.png'
+import css from '../assets/logo/css.png'
+import figma from '../assets/logo/figma.png'
+
+import basicFE from '../assets/sertif/Ruangguru/basic-FE.jpg'
+import basicReact from '../assets/sertif/Ruangguru/basic-react.jpg'
+import feNext from '../assets/sertif/Ruangguru/FE-next.jpg'
+import reactNext from '../assets/sertif/Ruangguru/react-next.jpg'
+import pybd from '../assets/sertif/py-bigdata.png'
+import webdev from '../assets/sertif/webdev.png'
+import rgcamp from '../assets/sertif/rg-camp.png'
+import pypcap from '../assets/sertif/py-pcap.png'
+import skilvul from '../assets/sertif/skilvul-sertif.png'
+import bwa from '../assets/sertif/bwa.png'
+import kmmi from '../assets/sertif/kmmi.png'
+import dicoding from '../assets/sertif/dicoding.png'
+import ayo from '../assets/sertif/ayo-bantu.png'
+
 function Home() {
   const [skills, setskills] = useState([
   ])
@@ -67,6 +92,7 @@ function Home() {
       img: projects5
     },
   ]
+
   return (
     <>
       {/* TOP */}
@@ -80,7 +106,7 @@ function Home() {
                     <h1 className='text-2xl font-regular'>Hello I'm</h1>
                     <div className="flex flex-col gap-3">
                       <h1 className='text-5xl 2xl:text-6xl font-extrabold text-neutral-700'>Aditya</h1>
-                      <h1 className='text-5xl 2xl:text-6xl font-extrabold text-neutral-800'>Widyatmoko.</h1>
+                      <h1 className='text-5xl 2xl:text-6xl font-extrabold text-neutral-800'>Widyatmoko<span className='text-indigo-500'>.</span></h1>
                     </div>
                     <div className="flex mt-8 gap-5">
                       <h1 className='text-sm 2xl:text-md font-semibold bg-violet-700 py-2 px-6 text-white rounded-full'>Web Developer</h1>
@@ -177,12 +203,24 @@ function Home() {
         <div className='flex justify-between my-14'>
           <div className='basis-3/4 mx-auto 2xl:mx-0'>
             <h1 className='text-2xl font-bold text-neutral-600'>Skills</h1>
+            <div className="flex gap-5 mt-10 flex-wrap">
+              <img src={react} alt="" width={150} height={150} />
+              <img src={redux} alt="" width={150} height={150} />
+              <img src={node} alt="" width={150} height={150} />
+              <img src={php} alt="" width={150} height={150} />
+              <img src={ci} alt="" width={150} height={150} />
+              <img src={js} alt="" width={150} height={150} />
+              <img src={py} alt="" width={150} height={150} />
+              <img src={html} alt="" width={150} height={150} />
+              <img src={css} alt="" width={150} height={150} />
+              <img src={figma} alt="" width={150} height={150} />
+            </div>
           </div>
         </div>
       </div>
       
       {/* EXPERIENCE */}
-      <div className="2xl:container mx-12 2xl:mx-auto mb-10">
+      <div className="2xl:container mx-12 2xl:mx-auto mb-14">
         <h1 className='text-2xl font-bold text-neutral-600 mb-5'>Work & Study Experience</h1>
 
         <ol className="relative border-l border-gray-200">                  
@@ -287,7 +325,7 @@ function Home() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400">Jan 2023 - Jun 2023</time>
                 <h3 className="text-lg font-semibold text-gray-900">PT. Ruang Raya Indonesia (Ruangguru)</h3>
                 <div className="flex py-1">
-                  <p className='text-sm font-semibold border-amber-400 text-amber-500 border-2 px-5 py-1 rounded-full'>Sleman, Daerah Istimewa Yogyakarta</p>
+                  <p className='text-sm font-semibold border-amber-400 text-amber-500 border-2 px-5 py-1 rounded-full'>Sleman, DIY</p>
                 </div>
                 <p className="text-base font-normal text-gray-500">Front-End Engineering</p>
                 <ul>
@@ -320,13 +358,11 @@ function Home() {
       </div>
       
       {/* PROJECTS */}
-      <div className="2xl:container mx-12 2xl:mx-auto">
+      <div className="2xl:container mx-12 2xl:mx-auto mb-14">
         <div className='my-14'>
             <h1 className='text-2xl font-bold text-neutral-600'>Projects</h1>
 
             <div className="">
-              {/* <img src={prof} width={'100%'} alt="" srcset="" /> */}     
-
               <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {myproject.map((items, idx) => (
                   <div>
@@ -336,8 +372,70 @@ function Home() {
               </div>
             </div>
         </div>
-      </div>
-            
+      </div>   
+
+      <div className="2xl:container mx-12 2xl:mx-auto mb-14">
+        <h1 className='text-2xl font-bold text-neutral-600 mb-5'>Certificate</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={basicFE} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={feNext} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={basicReact} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={reactNext} alt="" />
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={pybd} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={webdev} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={rgcamp} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={pypcap} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={ayo} alt="" />
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={skilvul} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={bwa} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={kmmi} alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg border border-neutral-200" src={dicoding} alt="" />
+                </div>
+            </div>
+            {/* <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="" />
+                </div>
+            </div> */}
+        </div>
+      </div>     
     </>
   )
 }
