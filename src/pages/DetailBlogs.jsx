@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
-// const { idblogs } = useParams();
 
 const detail = [
     {
@@ -17,18 +16,20 @@ const detail = [
 ]
 
 function DetailBlogs() {
+  const { idblogs } = useParams();
+
   return (
     <div>
-        Use Params
-        {/* {detail
-        .filter((elem) => elem.id === +id)
+        <p>{idblogs}</p>
+        {detail
+        .filter((elem) => elem.id === +idblogs)
         .map((elem) => (
             <div key={elem.id}>
               <h2>Name: {elem.name}</h2>
-              <p>Desc: {elem.desc}</p>\
+              <p>Desc: {elem.desc}</p>
             </div>
         ))
-        } */}
+        }
     </div>
   )
 }

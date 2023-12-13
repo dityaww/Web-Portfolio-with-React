@@ -103,10 +103,10 @@ function Home() {
           {/* HEADER */}
             <div className='flex flex-col-reverse gap-10 2xl:gap-0 2xl:justify-between 2xl:flex-row items-center py-28'>
                   <div className='flex flex-col'>
-                    <h1 className='text-2xl font-regular'>Hello I'm</h1>
-                    <div className="flex flex-col gap-3">
-                      <h1 className='text-5xl 2xl:text-6xl font-extrabold text-neutral-700'>Aditya</h1>
-                      <h1 className='text-5xl 2xl:text-6xl font-extrabold text-neutral-800'>Widyatmoko<span className='text-indigo-500'>.</span></h1>
+                    <h1 className='text-2xl font-regular text-neutral-400'>Hello I'm</h1>
+                    <div className="flex flex-col">
+                      <h1 className='text-5xl 2xl:text-7xl font-extrabold bg-gradient-to-r from-sky-700 from-10% via-fuchsia-500 via-30% to-indigo-500 to-90% py-4 bg-clip-text text-transparent'>Aditya</h1>
+                      <h1 className='text-5xl 2xl:text-7xl font-extrabold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-700 to-90% py-4 text-transparent bg-clip-text'>Widyatmoko<span className='text-indigo-500'>.</span></h1>
                     </div>
                     <div className="flex mt-8 gap-5">
                       <h1 className='text-sm 2xl:text-md font-semibold bg-violet-700 py-2 px-6 text-white rounded-full'>Web Developer</h1>

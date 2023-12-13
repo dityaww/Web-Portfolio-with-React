@@ -21,10 +21,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
 
-        <Route path="/blogs" element={<Blogs />}>
-          {/* <Route path="/detail-blogs/:idblogs" element={<DetailBlogs />} /> */}
-        </Route>
-
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/detail-blogs/:idblogs" element={<DetailBlogs />} />
+        
         <Route path="*" element={<NotFound />} />
       </Routes>
 
