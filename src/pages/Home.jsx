@@ -174,7 +174,7 @@ function Home() {
                     font-semibold 
                     hover:bg-blue-500
                     hover:text-white' onClick={() => alert("This is my CV!")} disabled>
-                      hire me
+                      get cv
                     </button>
                 </div>
                 {/* <div className='bg-slate-200 rounded-lg'>
